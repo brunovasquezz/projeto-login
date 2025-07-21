@@ -23,28 +23,45 @@
     }
 
     body{
-        background-image: linear-gradient(to bottom, #F1A0F2, #04ADBF);
+        background-image: linear-gradient(to left, #F1A0F2, #04ADBF);
     }
+
+        div#formulario h1{
+        font-size: 1.6em;
+    }
+
+    div#formulario p{
+        font-size: 1.1em;
+    }
+
  }
     /*DESKTOP*/
  @media screen and (min-width: 993px ) and (max-width:1440px) {
     section#login{
-        width: 990px;
+        width: 900px;
 
     }
     section#login div#metal{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
-    
+
+    div#formulario h1{
+        font-size: 1.9em;
+    }
+
+    div#formulario p{
+        font-size: 1.1em;
+    }
+
         body{
-        background-image: linear-gradient(to bottom, #F1A0F2, #04ADBF);
+        background-image: linear-gradient(to left, #F1A0F2, #04ADBF);
     }
     
  }
