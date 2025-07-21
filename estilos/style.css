@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores:
+Roxo: #F1A0F2
+Ciano: #04ADBF
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body, html{
+    background-color: #F1A0F2 ;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.43);
+}
+
+section#login div#metal{
+    display: block;
+    background: #F1A0F2 url(../imagens/metal.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: left bottom;
+}
+
+section#login div#formulario{
+    padding: 5px;
+}
