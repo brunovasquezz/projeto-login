@@ -10,8 +10,12 @@ Ciano: #04ADBF
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     
+}
+
+h1{
+    font-size: 1.4em;
 }
 
 body, html{
@@ -37,6 +41,9 @@ section#login{
     height: 500px;
     border-radius: 15px;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.43);
+
+    transition: width 0.2s, height 0.2s ;
+    transition-timing-function: ease;
 }
 
 section#login div#metal{
@@ -49,4 +56,5 @@ section#login div#metal{
 
 section#login div#formulario{
     padding: 5px;
+    display: block;
 }
