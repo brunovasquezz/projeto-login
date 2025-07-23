@@ -42,7 +42,7 @@ section#login{
     overflow: hidden;
     background-color: white;
     width: 254px;
-    height: 502px;
+    height: 510px;
     border-radius: 15px;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.43);
 
@@ -90,6 +90,20 @@ form input[type=submit]:hover{
     background-image: linear-gradient(to right, #04ADBF, #a46ba5);
 }
 
+form label{
+    display: none;
+}
+
+form > div.campo{
+    background-color: #F1A0F2;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 a{
     margin: 10px;
     color: white;
@@ -111,8 +125,4 @@ a:hover{
   background-image: linear-gradient(to right, #04ADBF, #a46ba5);
   background-color: #a46ba5;
   text-decoration: none;
-}
-
-campo{
-    
 }
