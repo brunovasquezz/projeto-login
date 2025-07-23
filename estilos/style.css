@@ -99,10 +99,31 @@ form > div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+div.campo{
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    display: block;
+}
+
+div.campo > input{
+    background-color: #06c5da;
+    font-size: em;
+    width: calc(100% - 40px);
+    height: 100%;
+    transform: translateY(-11px);
+    border-radius: 8px;
+    padding: 1px;
+    border: none;
+}
+
 
 a{
     margin: 10px;
@@ -117,8 +138,7 @@ a{
     font-size: 1em;
     padding-top: 5px;
     margin-top: 5px;
-
-    
+   
 }
 
 a:hover{
